@@ -1,0 +1,21 @@
+package day5;
+
+public class Count_Even_Odd_Digits_in_Number {
+	public static void main(String[] args) {
+		int num=251, oddCount=0, evenCount=0;
+		
+		while(num>0) {
+			int digit = num%10;
+			if (digit%2 == 0) {
+				evenCount++;
+			} else {
+				oddCount++;
+			}
+			num /=10;
+		}
+		System.out.println("# of even digits: " + evenCount);
+		System.out.println("# of odd digits: " + oddCount);
+		
+	}
+
+}

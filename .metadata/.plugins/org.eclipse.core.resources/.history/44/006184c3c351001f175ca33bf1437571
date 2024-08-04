@@ -1,0 +1,25 @@
+package day6;
+
+public class Test_Methods {
+
+	public static void main(String[] args) {
+		MethodDemo m =new methodOne();
+		m.methodOne();
+		
+		
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

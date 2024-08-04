@@ -1,0 +1,14 @@
+package day5;
+
+public class String_Manipulation {
+	public static void main(String[] args) {
+		String s = "Welcome";//string literal
+		String x = new String("Welcome2")//through string object class
+				//learn most important methods of string class
+		
+		int length = x.length();
+		System.out.println("The length is: " + length);
+		
+	}
+
+}
